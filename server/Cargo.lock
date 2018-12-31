@@ -1,0 +1,11 @@
+[[package]]
+name = "pldcraft"
+version = "0.1.0"
+
+[[package]]
+name = "pldcraft-server"
+version = "0.1.0"
+dependencies = [
+ "pldcraft 0.1.0",
+]
+
