@@ -1,0 +1,21 @@
+[[package]]
+name = "pldcraft-logic-common"
+version = "0.1.0"
+source = "git+https://github.com/pldcraft/pldcraft-logic-common.git?rev=dd5c10602820b4e782d2028db86cef09945d4882#dd5c10602820b4e782d2028db86cef09945d4882"
+
+[[package]]
+name = "pldcraft-networking"
+version = "0.1.0"
+source = "git+https://github.com/pldcraft/pldcraft-networking.git?rev=f88e40c9bb1ada7732d3e040523af6e382ce4056#f88e40c9bb1ada7732d3e040523af6e382ce4056"
+
+[[package]]
+name = "pldcraft-server"
+version = "0.1.0"
+dependencies = [
+ "pldcraft-logic-common 0.1.0 (git+https://github.com/pldcraft/pldcraft-logic-common.git?rev=dd5c10602820b4e782d2028db86cef09945d4882)",
+ "pldcraft-networking 0.1.0 (git+https://github.com/pldcraft/pldcraft-networking.git?rev=f88e40c9bb1ada7732d3e040523af6e382ce4056)",
+]
+
+[metadata]
+"checksum pldcraft-logic-common 0.1.0 (git+https://github.com/pldcraft/pldcraft-logic-common.git?rev=dd5c10602820b4e782d2028db86cef09945d4882)" = "<none>"
+"checksum pldcraft-networking 0.1.0 (git+https://github.com/pldcraft/pldcraft-networking.git?rev=f88e40c9bb1ada7732d3e040523af6e382ce4056)" = "<none>"

@@ -1,14 +1,13 @@
 [package]
-name = "pldcraft"
+name = "pldcraft-server"
 version = "0.1.0"
-authors = ["Andreas Lokko", "Andrey Penechko", "aolko", "Connor Scialdone", "James Martin <james@jtmar.me>", "Krovius", "VermillionAzure"]
+authors = ["Andreas Lokko", "Andrey Penechko", "aolko", "Connor Scialdone", "James Martin <james@jtmar.me>", "Krovius", "VermillionAzure", "Zekka Nelson"]
 description = "A voxel-based sandbox game engine created by the programming language design community."
 documentation = "https://github.com/pldcraft/pldcraft/wiki"
 license = "GPL-3.0-or-later"
-
 edition = "2018"
 publish = false
 
-[lib]
-name = "pldcraft"
-path = "src/lib.rs"
+[dependencies]
+pldcraft-logic-common = { git = 'https://github.com/pldcraft/pldcraft-logic-common.git', rev = 'dd5c10602820b4e782d2028db86cef09945d4882' }
+pldcraft-networking = { git = 'https://github.com/pldcraft/pldcraft-networking.git', rev = 'f88e40c9bb1ada7732d3e040523af6e382ce4056' }
